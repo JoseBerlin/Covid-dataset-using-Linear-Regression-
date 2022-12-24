@@ -122,10 +122,9 @@ txtdischarged.place(x=150, y=330, width=100)
 button1 = tk.Button(root, text='View Accuracy', command=accuracy, bg='green')
 canvas1.create_window(200, 250, window=button1)
 
-button2 = tk.Button(root, text='Predict now', command=predict, bg='white')
+button2 = tk.Button(root, text='Predict', command=predict, bg='white')
 canvas1.create_window(330, 350 , window=button2)
 
 button4 = tk.Button(root, text='view Graphs', command=viz, bg='white')
 canvas1.create_window(300, 250, window=button4)
 root.mainloop()
-
